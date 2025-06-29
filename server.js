@@ -9,8 +9,8 @@ connectDB();
 
 const app = express();
 
-const origin = 'http://localhost:5173'
-// const origin = 'https://nutritionalnuts.netlify.app'
+// const origin = 'http://localhost:5173'
+const origin = 'https://agleohiringconsultancy.com'
 
 // CORS configuration
 app.use(cors({
